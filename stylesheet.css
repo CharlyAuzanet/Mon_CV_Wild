@@ -20,17 +20,18 @@ header {
 
 #left-box {
 
-	float: left;
 	background-color: rgb(9, 30, 45);
 	color: white;
 	width: 250px;
 	height: 800px;
-	padding: 10px;
 	border: 2px solid white;
 	border-radius: 5px;
 	padding: 20px;
 	text-align: justify;
-	margin-left: 200px;
+	margin: auto;
+	
+
+
 
 
 	
@@ -42,12 +43,11 @@ header {
 	padding: 10px;
 	border: 2px solid black;
 	width: 1000px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	border-radius: 5px;
-	margin: auto;
 	margin-bottom: 100px;
 	margin-top: 80px;
-
+	
 }
 
 #studies-box {
@@ -57,7 +57,7 @@ header {
 	border: 2px solid black;
 	width: 1000px;
 	border-radius: 5px;
-	margin: auto;
+
 }
 
 
@@ -78,4 +78,11 @@ header {
 #left-box ul li {
 
 	list-style-type: none;
+}
+
+#container {
+
+	display: flex;
+	flex-direction: row;
+	
 }
