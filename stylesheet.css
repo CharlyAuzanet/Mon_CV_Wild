@@ -1,6 +1,20 @@
+
 body {
 
 	background-color: rgb(104, 187, 285);
+	
+
+}
+
+header {
+
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 80%;
+	padding: 20px;
+	margin: auto;
+	margin-bottom: 20px;
+	
 }
 
 
@@ -9,21 +23,59 @@ body {
 	float: left;
 	background-color: rgb(9, 30, 45);
 	color: white;
+	width: 250px;
+	height: 800px;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: justify;
+	margin-left: 200px;
+
+
+	
 }
 
 #experiences-box {
 
 	background-color: white;
+	padding: 10px;
+	border: 2px solid black;
+	width: 1000px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	margin: auto;
+	margin-bottom: 100px;
+	margin-top: 80px;
+
 }
 
 #studies-box {
 
-	background-origin: white;
+	background-color: white;
+	padding: 10px;
+	border: 2px solid black;
+	width: 1000px;
+	border-radius: 5px;
+	margin: auto;
 }
 
-#photocvsmall {
 
-	width: 100px;
-	height: 100px;
+#right-box {
+
+	display: flex;
+	flex-direction: column;
+	margin: auto;
 }
 
+#photocv {
+ 	
+ 	max-width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+#left-box ul li {
+
+	list-style-type: none;
+}
