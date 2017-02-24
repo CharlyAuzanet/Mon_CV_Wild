@@ -2,6 +2,7 @@
 body {
 
 	background-color: rgb(104, 187, 285);
+
 	
 
 }
@@ -29,12 +30,7 @@ header {
 	padding: 20px;
 	text-align: justify;
 	margin: auto;
-	
-
-
-
-
-	
+		
 }
 
 #experiences-box {
@@ -78,6 +74,7 @@ header {
 #left-box ul li {
 
 	list-style-type: none;
+
 }
 
 #container {
@@ -85,4 +82,24 @@ header {
 	display: flex;
 	flex-direction: row;
 	
+}
+
+ul {
+
+	padding-left: 0px;
+}
+
+#footer {
+
+	border: 2px solid black;
+	padding: 10px;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+
+#all {
+
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
 }
